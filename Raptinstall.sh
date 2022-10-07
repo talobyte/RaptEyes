@@ -42,8 +42,8 @@ fedora_install() {
 }
 
 python_setup() {
-    git clone https://github.com/ThoughtfulDev/EagleEye
-    cd EagleEye && sudo pip3 install -r requirements.txt
+    git clone https://github.com/talhazmedia/RaptEyes
+    cd RaptEyes && sudo pip3 install -r requirements.txt
     sudo pip3 install --upgrade beautifulsoup4 html5lib spry
 
     echo  "Installation done"
