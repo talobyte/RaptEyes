@@ -20,7 +20,6 @@
 
 ![Python 3.5](https://img.shields.io/badge/Python-3.6%2B-blue.svg)
 ![OS Linux](https://img.shields.io/badge/Supported%20OS-Linux-yellow.svg)
-![Lets stalk](https://img.shields.io/badge/Stalkermode-Activated-red.svg)
 
 </div>
 
