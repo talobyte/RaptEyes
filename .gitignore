@@ -1,0 +1,11 @@
+.idea
+.vscode
+*_Report.pdf
+__pycache__
+venv
+*.log
+known/*.jpg
+known/*.png
+grabber/__pycache__
+report/__pycache__
+utils/__pycache__
