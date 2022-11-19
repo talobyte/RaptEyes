@@ -43,7 +43,7 @@ fedora_install() {
 }
 
 python_setup() {
-    git clone https://github.com/talhazmedia/RaptEyes
+    git clone https://github.com/alphaotuken/RaptEyes
     cd RaptEyes && sudo pip3 install -r requirements.txt
     sudo pip3 install --upgrade beautifulsoup4 html5lib spry
 
