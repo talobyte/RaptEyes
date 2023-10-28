@@ -52,7 +52,7 @@ These instructions will get you a copy of the project up and running on your loc
 **Make sure that you use a LINUX distribution as the host**
 1. Clone the Repository
 
-   ``` $ git clone https://github.com/alphaotuken/RaptEyes ```
+   ``` $ git clone https://github.com/talobyte/RaptEyes ```
 2. ```
    $ cd RaptEyes
    $ sudo docker build -t rapteyes .
@@ -77,7 +77,7 @@ The result should now be in `/path/to/result`
 
 #### Automated Prerequisites Installation (If Docker doesn't work)
 ```
-wget https://raw.githubusercontent.com/alphaotuken/RaptEyes/master/install.sh && chmod +x install.sh && ./install.sh
+wget https://raw.githubusercontent.com/talobyte/RaptEyes/master/install.sh && chmod +x install.sh && ./install.sh
 ```
 
 ---
@@ -89,7 +89,7 @@ For **Debian** based Distros
 $ sudo apt update && sudo apt upgrade -y
 $ sudo apt install git python3 python3-pip python3-dev
 $ sudo apt install libgtk-3-dev libboost-all-dev build-essential cmake libffi-dev
-$ git clone https://github.com/alphaotuken/RaptEyes
+$ git clone https://github.com/talobyte/RaptEyes
 $ cd EagleEye && sudo pip3 install -r requirements.txt
 $ sudo pip3 install --upgrade beautifulsoup4 html5lib spry
 ```
@@ -98,7 +98,7 @@ For **Arch**
 ```
 $ sudo pacman -Syu
 $ sudo pacman -S git python python-pip gtk3 boost cmake libffi
-$ git clone https://github.com/alphaotuken/RaptEyes
+$ git clone https://github.com/talobyte/RaptEyes
 $ cd RaptEyes && sudo pip3 install -r requirements.txt
 $ sudo pip3 install --upgrade beautifulsoup4 html5lib spry
 ```
@@ -176,4 +176,4 @@ $ python3 rapteyes.py -h
 
 ## ✍️ Credits & Authors <a name = "authors"></a>
 - [@ThoughtfulDev](https://github.com/ThoughtfulDev) 
-- [@alphaotuken](https://github.com/alphaotuken)
+- [@talobyte](https://github.com/talobyte)
